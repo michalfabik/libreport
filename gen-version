@@ -18,6 +18,4 @@ else
     VN="$DEF_VER"
 fi
 
-sed -e "s/@@LIBREPORT_VERSION@@/$VN/g" < libreport.spec.in > libreport.spec
-
 echo -n $VN > libreport-version
